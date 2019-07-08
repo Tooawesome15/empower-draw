@@ -1,0 +1,42 @@
+html {
+    overflow: hidden;
+}
+
+body {
+    display: flex;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+}
+
+canvas {
+    flex: 1 1 auto;
+}
+
+#my-header {
+    padding: 15px 45px;
+    background-color: orange;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+#my-footer {
+    padding: 15px 45px;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+#my-buttons {
+    width: 200px;
+    margin: auto;
+}
+
+@media (max-width: 500px) {
+    body {
+        height: 90vh;
+    }
+}

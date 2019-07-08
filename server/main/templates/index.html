@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="{{ url_for('static', filename='styles.css') }}" rel="stylesheet">
+    <script src="{{ url_for('static', filename='scripts.js') }}" defer></script>
+    <!-- <link href="../static/styles.css" rel="stylesheet"> -->
+</head>
+
+<body>
+    <header id="my-header" class="shadow-lg">
+        Can you draw a suitcase?
+    </header>
+    <canvas id="my-canvas" 
+            onmousedown="mouseDown(event)"
+            onmouseup="mouseUp(event)"
+            onmousemove="mouseMove(event)">
+    </canvas>
+    <div id="my-buttons" class="btn-group">
+        <button class="btn btn-outline-warning" onclick="resetCanvas(event)">Clear</button>
+        <button class="btn btn-outline-success" onclick="getNextCategory(event)">Next</button>
+    </div>
+    <footer id="my-footer" >
+        I see nothing.
+    </footer>
+</body>
+</html>
