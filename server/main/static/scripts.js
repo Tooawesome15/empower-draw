@@ -1,4 +1,4 @@
-var targetCategory = 'suitcase';
+var targetCategory = 'apple';
 var getPredictionTimeout;
 var getPredictionTimeoutDelay = 1000;
 var getNextCategoryDelay = 1000;
@@ -149,17 +149,17 @@ const header = document.getElementById('my-header');
 const footer = document.getElementById('my-footer');
 
 let headerStringsFmtFuncs = [
-    category => `Try drawing a ${category}`,
-    category => `Draw a ${category}.`,
-    category => `How about a ${category}?`,
-    category => `Can you draw a ${category}?`,
-    category => `Maybe a ${category}?`
+    category => `Try drawing ${category}`,
+    category => `Draw ${category}.`,
+    category => `How about ${category}?`,
+    category => `Can you draw ${category}?`,
+    category => `Maybe ${category}?`
 ];
 let footerStringsFmtFuncs = [
-    category => `I see a ${category}`,
-    category => `It looks a ${category}`,
-    category => `Seems like a ${category}`,
-    category => `Is it a ${category}?`
+    category => `I see ${category}`,
+    category => `It looks like ${category}`,
+    category => `Seems like ${category}`,
+    category => `Is it ${category}?`
 ];
 let emptyStrings = [
     'I see nothing.',
