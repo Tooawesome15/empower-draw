@@ -36,7 +36,7 @@ Activate conda environment
 conda activate draw
 ```
 
-Install requirements by first changing to ```fruit_not_fruit``` by using the ```cd``` command.
+Install requirements by first changing to ```root``` by using the ```cd``` command.
 ```
 conda install --file requirements.txt
 ```
