@@ -65,7 +65,7 @@ Refer to above should you face any requirement errors.
 
 ## Authors
 
-* **Tooawesome15** - *Initial work and Backend* - [mrzzy](https://github.com/Tooawesome15)
+* **Tooawesome15** - *Initial work and Backend* - [Tooawesome15](https://github.com/Tooawesome15)
 * **J370** - *Frontend* - [J370](https://github.com/J370)
 
 See also the list of [contributors](https://github.com/Tooawesome15/empower-draw/graphs/contributors) who participated in this project.
