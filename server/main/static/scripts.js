@@ -14,10 +14,6 @@ canvas.height = canvas.clientHeight;
 ctx.lineWidth = 10;
 ctx.lineCap = "round";
 
-// canvas.addEventListener("touchstart", () => console.log('Hello'));
-// canvas.addEventListener("touchend", () => console.log('World'));
-// canvas.addEventListener("touchmove", () => console.log('WOOOOO'));
-
 function mouseDown (event) {
     mousePressed = true;
 }
