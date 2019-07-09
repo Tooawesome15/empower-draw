@@ -1,0 +1,5 @@
+development/datasets
+development/npy_files
+development/_*
+development/.*
+.vscode/
