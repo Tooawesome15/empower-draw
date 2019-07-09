@@ -9,10 +9,12 @@ const ctx = canvas.getContext("2d");
 let lastX, lastY;
 let mousePressed = false;
 
-canvas.width = canvas.clientWidth;
-canvas.height = canvas.clientHeight;
-ctx.lineWidth = 10;
-ctx.lineCap = "round";
+setTimeout(() => { // Due to other browser compatibility
+    canvas.width = canvas.clientWidth;
+    canvas.height = canvas.clientHeight;
+    ctx.lineWidth = 10;
+    ctx.lineCap = "round";
+}, 500);
 
 function mouseDown (event) {
     mousePressed = true;
