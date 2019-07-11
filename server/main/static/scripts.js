@@ -1,4 +1,4 @@
-var targetCategory = 'apple';
+var targetCategory = 'airplane';
 var getPredictionTimeout;
 var getPredictionTimeoutDelay = 1000;
 var getNextCategoryDelay = 1000;
